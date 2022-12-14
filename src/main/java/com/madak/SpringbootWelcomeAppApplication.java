@@ -11,7 +11,7 @@ public class SpringbootWelcomeAppApplication {
 
     @GetMapping("/greet")
     public String wlcmMsg() {
-        return "Hi Niranjan welcome to your first spring boot app deployment on azure web app from github action !!";
+        return "Hi Mr. niranjan welcome to your first spring boot app deployment on azure web app from github action !!";
     }
 
     public static void main(String[] args) {
